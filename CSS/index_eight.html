@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .box{
+            border: 1px solid black;
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+        }
+        @media (min-width:300px) and (max-width:500px) {
+            .box{
+                background-color: green;
+            }
+        } */
+        .container{
+            background-color: beige;
+            border: 5px solid black;
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+            
+        }
+        .boxx{
+            height: 200px;
+            width: 200px;
+            border: 1px solid brown;
+            margin: 2px;
+            padding: 2px;
+        }    
+         #box1{
+            background-color: aliceblue;
+            
+        }
+        #box2{
+            background-color: antiquewhite;
+            
+
+        }
+        #box3{
+            background-color: blue;
+           
+        }
+        #box4{
+            background-color: aqua;
+        }
+        @media (min-width:640px) {
+            .container{
+                flex-direction: row;
+            }
+        }
+        @media (max-width:640px) {
+            .container{
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <!-- <div class="box">
+        hello bhaiyo
+    </div> -->
+    <div class="container">
+        <div class="boxx" id="box1">BOX 1</div>
+        <div class="boxx" id="box2">BOX 2</div>
+        <div class="boxx" id="box3">BOX 3</div>
+        <div class="boxx" id="box4">BOX 4</div>
+    </div>
+    
+
+
+</body>
+</html>
